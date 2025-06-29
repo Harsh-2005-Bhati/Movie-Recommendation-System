@@ -1,1 +1,5 @@
-# Movie-Recommendation-System
+## Movie-Recommendation-System
+
+This Movie Recommendation System is a content-based filtering project built using Python and Jupyter Notebook. It utilizes the TMDB 5000 dataset (tmdb_5000_movies.csv and tmdb_5000_credits.csv) to recommend movies similar to a user-selected title. The system works by combining multiple movie metadata fields like cast, crew, genres, overview, and keywords into a single textual format, then vectorizing it using CountVectorizer from Scikit-learn. By calculating cosine similarity between these vectors, the system identifies and returns the top 5 most similar movies for any given input.
+
+This project is ideal for understanding how natural language processing and similarity measures can be used to build intelligent recommendation systems. It provides a foundational approach that can be extended with collaborative filtering or integrated into a web interface using Flask or Streamlit. The system demonstrates efficient preprocessing, feature engineering, and recommendation logic—making it a solid base for more advanced recommender systems or personal movie assistant apps.
